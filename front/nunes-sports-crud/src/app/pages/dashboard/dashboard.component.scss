@@ -1,0 +1,31 @@
+.icons{
+  font-size: 15px;
+  display: flex;
+  gap: 10px;
+
+  .bi-pencil-square, .bi-trash3-fill{
+    cursor: pointer;
+  }
+
+  .bi-pencil-square{
+    color: #0772ff;
+  }
+
+  .bi-trash3-fill{
+    color: #ff0000;
+  }
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #7A6AD3;
+  background-color: #7A6AD3;
+  transition: all 0.5s ease-in-out;
+
+  &:hover{
+    background-color: #fff;
+    color: #7A6AD3 !important;
+    border: 1px solid #7A6AD3;
+  }
+}
